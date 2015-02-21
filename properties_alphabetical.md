@@ -1,4 +1,5 @@
 # All properties alphabetically ordered
+## A
 * align-content
 * align-items
 * align-self
@@ -13,6 +14,7 @@
 * animation-play-state
 * animation-timing-function
 
+## B
 * backface-visibility
 * background
 * background-attachment
@@ -82,12 +84,11 @@
 * break-before
 * break-inside
 
+## C
 * caption-side
-* ch
 * clear
 * clip
 * clip-path
-* cm
 * color
 * columns
 * column-count
@@ -104,18 +105,14 @@
 * counter-reset
 * cursor
 
-* deg
+## D
 * direction
 * display
-* dpcm
-* dpi
-* dppx
-* drop-shadow()
 
-* em
+## E
 * empty-cells
-* ex
 
+## F
 * filter
 * flex
 * flex-basis
@@ -144,7 +141,7 @@
 * font-variant-position
 * font-weight
 
-* grad
+## G
 * grid
 * grid-area
 * grid-auto-columns
@@ -162,24 +159,22 @@
 * grid-template-rows
 * grid-template-columns
 
+## H
 * height
 * hyphens
-* hz
 
+## I
 * image-rendering
 * image-resolution
 * image-orientation
 * ime-mode
-* in
-* inherit
-* initial
 * inline-size
 * isolation
 
+## J
 * justify-content
 
-* khz
-
+## L
 * left
 * letter-spacing
 * line-break
@@ -189,6 +184,7 @@
 * list-style-position
 * list-style-type
 
+## M
 * margin
 * margin-block-end
 * margin-block-start
@@ -210,9 +206,8 @@
 * min-inline-size
 * min-width
 * mix-blend-mode
-* mm
-* ms
 
+## O
 * object-fit
 * object-position
 * offset-block-end
@@ -232,6 +227,7 @@
 * overflow-x
 * overflow-y
 
+## P
 * padding
 * padding-block-end
 * padding-block-start
@@ -244,26 +240,28 @@
 * page-break-after
 * page-break-before
 * page-break-inside
-* pc
 * perspective
 * perspective-origin
 * pointer-events
 * position
 
+## Q
 * quotes
 
+## R
 * resize
 * right
 * ruby-align
 * ruby-merge
 * ruby-position
 
-* s
+## S
 * scroll-behavior
 * shape-image-threshold
 * shape-margin
 * shape-outside
 
+## T
 * table-layout
 * tab-size
 * text-align
@@ -292,15 +290,16 @@
 * transition-timing-function
 * turn
 
+## U
 * unicode-bidi
 * unicode-range
 * unset
 
+## V
 * vertical-align
 * visibility
-* vmax
-* vmin
 
+## W
 * white-space
 * widows
 * width
@@ -310,4 +309,5 @@
 * word-wrap
 * writing-mode
 
+## Z
 * z-index
