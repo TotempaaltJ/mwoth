@@ -15,18 +15,29 @@ and whenever there's none it's alphabetical.
 
 ## Box
 * content
+* will-change
 
 ### Generic styling
 * all
+* display
 * box-sizing
 * box-decoration-break
-* break-after
 * break-before
+* page-break-before
 * break-inside
+* page-break-inside
+* break-after
+* page-break-after
+* isolation
+* object-fit
+* object-position
+* widows
+* orphans
 * overflow
     * overflow-wrap
     * overflow-x
     * overflow-y
+* visibility
 
 ### Flex
 * flex
@@ -36,6 +47,7 @@ and whenever there's none it's alphabetical.
     * flex-grow
     * flex-shrink
     * flex-wrap
+* order
 * justify-content
 * align-content
 * align-items
@@ -51,15 +63,27 @@ and whenever there's none it's alphabetical.
 * right
 * bottom
 * left
+* offset-inline-start
+* offset-inline-end
+* offset-block-start
+* offset-block-end
+* vertical-align
+* clip-path
 * z-index
 
 ### Size
 * height
 * min-height
 * max-height
+
 * width
 * min-width
 * max-width
+
+* inline-size
+* min-inline-size
+* max-inline-size
+
 * block-size
 * min-block-size
 * max-block-size
@@ -131,6 +155,12 @@ and whenever there's none it's alphabetical.
         * border-image-source
         * border-image-width
 
+* outline
+* outline-color
+* outline-offset
+* outline-style
+* outline-width
+
 
 ### Margin
 * margin
@@ -168,6 +198,8 @@ and whenever there's none it's alphabetical.
     * font-language-override
     * font-synthesis
 
+* direction
+* writing-mode
 * text-align
 * text-align-last
 * text-combine-upright
@@ -182,9 +214,17 @@ and whenever there's none it's alphabetical.
 * text-shadow
 * text-transform
 * text-underline-position
+* quotes
 
+* shape-image-threshold
+* shape-margin
+* shape-outside
+
+* hyphens
 * letter-spacing
 * line-break
+* tab-size
+* white-space
 * word-break
 * word-spacing
 * word-wrap
@@ -199,6 +239,32 @@ and whenever there's none it's alphabetical.
 * column-rule-width
 * column-span
 * column-width
+
+
+## Element specific
+### Forms
+* ime-mode
+
+### Images
+* image-rendering
+* image-resolution
+* image-orientation
+
+### Lists
+* list-style
+* list-style-image
+* list-style-position
+* list-style-type
+
+### Rubies
+* ruby-align
+* ruby-merge
+* ruby-position
+
+### Tables
+* caption-side
+* empty-cells
+* table-layout
 
 
 ## Background
@@ -217,7 +283,13 @@ and whenever there's none it's alphabetical.
 ## Visual effects
 * backface-visibility
 * box-shadow
+* filter
+* mask
+* mask-type
+* mix-blend-mode
 * opacity
+* perspective
+* perspective-origin
 * transform
 * transform-origin
 * transform-style
@@ -225,6 +297,13 @@ and whenever there's none it's alphabetical.
 
 ## Dynamic
 * cursor
+* pointer-events
+* resize
+* scroll-behavior
+* touch-action
+
+* counter-increment
+* counter-reset
 
 * animation
     * animation-name
@@ -240,106 +319,3 @@ and whenever there's none it's alphabetical.
     * transition-duration
     * transition-property
     * transition-timing-function
-
-
-# Properties not (yet) sorted
-* caption-side
-* clip
-* clip-path
-* counter-increment
-* counter-reset
-
-* direction
-* display
-
-* empty-cells
-
-* filter
-
-* grid
-* grid-area
-* grid-auto-columns
-* grid-auto-flow
-* grid-auto-position
-* grid-auto-rows
-* grid-column
-* grid-column-start
-* grid-column-end
-* grid-row
-* grid-row-start
-* grid-row-end
-* grid-template
-* grid-template-areas
-* grid-template-rows
-* grid-template-columns
-
-* hyphens
-
-* image-rendering
-* image-resolution
-* image-orientation
-* ime-mode
-* inline-size
-* isolation
-
-* list-style
-* list-style-image
-* list-style-position
-* list-style-type
-
-* marks
-* mask
-* mask-type
-* max-inline-size
-* min-inline-size
-* mix-blend-mode
-
-* object-fit
-* object-position
-* offset-block-end
-* offset-block-start
-* offset-inline-end
-* offset-inline-start
-* order
-* orphans
-* outline
-* outline-color
-* outline-offset
-* outline-style
-* outline-width
-
-* page-break-after
-* page-break-before
-* page-break-inside
-* perspective
-* perspective-origin
-* pointer-events
-
-* quotes
-
-* resize
-* ruby-align
-* ruby-merge
-* ruby-position
-
-* scroll-behavior
-* shape-image-threshold
-* shape-margin
-* shape-outside
-
-* table-layout
-* tab-size
-* touch-action
-* turn
-
-* unicode-bidi
-* unicode-range
-* unset
-
-* vertical-align
-* visibility
-
-* white-space
-* widows
-* will-change
-* writing-mode
